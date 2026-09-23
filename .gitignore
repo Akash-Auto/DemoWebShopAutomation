@@ -1,0 +1,28 @@
+# Eclipse
+.project
+.classpath
+.settings/
+
+# Maven
+target/
+
+# Logs
+*.log
+logs/
+
+# Test output
+test-output/
+
+# Temporary files
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+
+# Configuration / credentials
+config/config.properties
