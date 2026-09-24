@@ -1,10 +1,14 @@
 pipeline {
     agent any
 
+    tools {
+        maven 'Maven-3.9.15'
+    }
+
     stages {
-        stage('Test') {
+        stage('Build') {
             steps {
-                echo 'Demo Web Shop Jenkins Pipeline is working!'
+                bat 'mvn -version'
             }
         }
     }
